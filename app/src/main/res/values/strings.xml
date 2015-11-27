@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">jc-mvp</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+
+
+    <string name="error_internet_connection">Por favor, revise su conexion a Internet.</string>
+    <string name="error_server_internal">Por favor, vuelva a interntalo en unos momentos.</string>
+    <string name="error_login_us_pw_incorrect">Usuario o contraseña incorrecta.</string>
+
+
+    <string name="login_hint_user">Usuario</string>
+    <string name="login_hint_password">Contraseña</string>
+    <string name="login_btn_ingresar">Ingresar</string>
+
 </resources>
