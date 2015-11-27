@@ -1,0 +1,39 @@
+ext {
+
+    supportLibraryVersion = '23.1.0'
+    supportDependencies = [
+            design      : "com.android.support:design:${supportLibraryVersion}",
+            appcompat   : "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            cardview    : "com.android.support:cardview-v7:${supportLibraryVersion}",
+            recyclerview: "com.android.support:recyclerview-v7:${supportLibraryVersion}"
+    ]
+
+    squareVersion = '2.0.0-beta2'
+    picassoVersion = '2.5.0'
+    squareDependencies = [
+            retrofit       : "com.squareup.retrofit:retrofit:${squareVersion}",
+            adapter_rx_java: "com.squareup.retrofit:adapter-rxjava:${squareVersion}",
+            converter_gson : "com.squareup.retrofit:converter-gson:${squareVersion}",
+            picasso        : "com.squareup.picasso:picasso:${picassoVersion}"
+    ]
+
+    rxandroidVersion = '1.0.1'
+    rxjavaVersion = '1.0.16'
+    reactiveDependencies = [
+            rxandroid: "io.reactivex:rxandroid:${rxandroidVersion}",
+            rxjava   : "io.reactivex:rxjava:${rxjavaVersion}"
+    ]
+
+    ormliteVersion = '4.48'
+    ormliteDependencies = [
+            core: "com.j256.ormlite:ormlite-core:${ormliteVersion}",
+            core: "com.j256.ormlite:ormlite-android:${ormliteVersion}"
+    ]
+
+    butterknifeVersion = '7.0.1'
+    circleimageviewVersion = '1.3.0'
+    otherDependencies = [
+            butterknife    : "com.jakewharton:butterknife:${butterknifeVersion}",
+            circleimageview: "de.hdodenhof:circleimageview:${circleimageviewVersion}"
+    ]
+}
